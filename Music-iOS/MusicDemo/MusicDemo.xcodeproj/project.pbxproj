@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046B54DE1C017E9100C1B42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B54DD1C017E9100C1B42C /* main.m */; };
+		046B54E11C017E9100C1B42C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B54E01C017E9100C1B42C /* AppDelegate.m */; };
+		046B54E71C017E9100C1B42C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B54E51C017E9100C1B42C /* Main.storyboard */; };
+		046B54EA1C017E9100C1B42C /* MusicDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046B54E81C017E9100C1B42C /* MusicDemo.xcdatamodeld */; };
+		046B54EC1C017E9100C1B42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046B54EB1C017E9100C1B42C /* Assets.xcassets */; };
+		046B54EF1C017E9100C1B42C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B54ED1C017E9100C1B42C /* LaunchScreen.storyboard */; };
+		046F1DE41C01D1F6001FB751 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F1DE31C01D1F6001FB751 /* BaseViewController.m */; };
+		046F1DEB1C01D385001FB751 /* LBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F1DEA1C01D385001FB751 /* LBTabBarController.m */; };
+		046F1E081C01D8D0001FB751 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F1DFE1C01D8D0001FB751 /* AccountViewController.m */; };
+		046F1E091C01D8D0001FB751 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F1E011C01D8D0001FB751 /* FriendsViewController.m */; };
+		046F1E0A1C01D8D0001FB751 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F1E041C01D8D0001FB751 /* HomeViewController.m */; };
+		046F1E0B1C01D8D0001FB751 /* MyMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F1E071C01D8D0001FB751 /* MyMusicViewController.m */; };
+		04953F8A1C06D6D000CD333D /* LBCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04953F891C06D6D000CD333D /* LBCustomNavigationController.m */; };
+		DC53C307F6E3C1FD5CD125B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0619DE3EB46EF135E87205 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046B54D91C017E9100C1B42C /* MusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B54DD1C017E9100C1B42C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046B54DF1C017E9100C1B42C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046B54E01C017E9100C1B42C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046B54E61C017E9100C1B42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046B54E91C017E9100C1B42C /* MusicDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicDemo.xcdatamodel; sourceTree = "<group>"; };
+		046B54EB1C017E9100C1B42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046B54EE1C017E9100C1B42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046B54F01C017E9100C1B42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F1DE21C01D1F6001FB751 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		046F1DE31C01D1F6001FB751 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		046F1DE91C01D385001FB751 /* LBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBarController.h; sourceTree = "<group>"; };
+		046F1DEA1C01D385001FB751 /* LBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBarController.m; sourceTree = "<group>"; };
+		046F1DEC1C01D411001FB751 /* MusicDemoPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicDemoPrefix.pch; sourceTree = "<group>"; };
+		046F1DFD1C01D8D0001FB751 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		046F1DFE1C01D8D0001FB751 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		046F1E001C01D8D0001FB751 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		046F1E011C01D8D0001FB751 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		046F1E031C01D8D0001FB751 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		046F1E041C01D8D0001FB751 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		046F1E061C01D8D0001FB751 /* MyMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMusicViewController.h; sourceTree = "<group>"; };
+		046F1E071C01D8D0001FB751 /* MyMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMusicViewController.m; sourceTree = "<group>"; };
+		04953F881C06D6D000CD333D /* LBCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCustomNavigationController.h; sourceTree = "<group>"; };
+		04953F891C06D6D000CD333D /* LBCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCustomNavigationController.m; sourceTree = "<group>"; };
+		8967E1B2147A4EFD1EE69BEC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6DF9E37D4B221B89373F13 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DD0619DE3EB46EF135E87205 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046B54D61C017E9100C1B42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53C307F6E3C1FD5CD125B9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046B54D01C017E9100C1B42C = {
+			isa = PBXGroup;
+			children = (
+				046B54DB1C017E9100C1B42C /* MusicDemo */,
+				046B54DA1C017E9100C1B42C /* Products */,
+				8E28E749FD40D283E4661A35 /* Pods */,
+				B796326F797E8F445BB6DAED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046B54DA1C017E9100C1B42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046B54D91C017E9100C1B42C /* MusicDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046B54DB1C017E9100C1B42C /* MusicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				046B54DF1C017E9100C1B42C /* AppDelegate.h */,
+				046B54E01C017E9100C1B42C /* AppDelegate.m */,
+				046F1DDF1C01D1E2001FB751 /* Base */,
+				046F1DE71C01D339001FB751 /* Category */,
+				046F1DE81C01D339001FB751 /* Custom */,
+				046F1DE01C01D1E2001FB751 /* config */,
+				046F1DE11C01D1E2001FB751 /* libs */,
+				046F1DDB1C01CBED001FB751 /* Net */,
+				046F1DDC1C01CBED001FB751 /* Tools */,
+				046F1DDD1C01CBED001FB751 /* View */,
+				046F1DDE1C01CBED001FB751 /* ViewController */,
+				046B54E51C017E9100C1B42C /* Main.storyboard */,
+				046B54EB1C017E9100C1B42C /* Assets.xcassets */,
+				046B54ED1C017E9100C1B42C /* LaunchScreen.storyboard */,
+				046B54F01C017E9100C1B42C /* Info.plist */,
+				046F1DEC1C01D411001FB751 /* MusicDemoPrefix.pch */,
+				046B54E81C017E9100C1B42C /* MusicDemo.xcdatamodeld */,
+				046B54DC1C017E9100C1B42C /* Supporting Files */,
+			);
+			path = MusicDemo;
+			sourceTree = "<group>";
+		};
+		046B54DC1C017E9100C1B42C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046B54DD1C017E9100C1B42C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046F1DDB1C01CBED001FB751 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		046F1DDC1C01CBED001FB751 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		046F1DDD1C01CBED001FB751 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046F1DDE1C01CBED001FB751 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				046F1E021C01D8D0001FB751 /* Home */,
+				046F1E051C01D8D0001FB751 /* MyMusic */,
+				046F1DFF1C01D8D0001FB751 /* Friends */,
+				046F1DFC1C01D8D0001FB751 /* Account */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		046F1DDF1C01D1E2001FB751 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				046F1DE21C01D1F6001FB751 /* BaseViewController.h */,
+				046F1DE31C01D1F6001FB751 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		046F1DE01C01D1E2001FB751 /* config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		046F1DE11C01D1E2001FB751 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		046F1DE71C01D339001FB751 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			path = Base/Category;
+			sourceTree = "<group>";
+		};
+		046F1DE81C01D339001FB751 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				046F1DE91C01D385001FB751 /* LBTabBarController.h */,
+				046F1DEA1C01D385001FB751 /* LBTabBarController.m */,
+				04953F881C06D6D000CD333D /* LBCustomNavigationController.h */,
+				04953F891C06D6D000CD333D /* LBCustomNavigationController.m */,
+			);
+			name = Custom;
+			path = Base/Custom;
+			sourceTree = "<group>";
+		};
+		046F1DFC1C01D8D0001FB751 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				046F1DFD1C01D8D0001FB751 /* AccountViewController.h */,
+				046F1DFE1C01D8D0001FB751 /* AccountViewController.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		046F1DFF1C01D8D0001FB751 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				046F1E001C01D8D0001FB751 /* FriendsViewController.h */,
+				046F1E011C01D8D0001FB751 /* FriendsViewController.m */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		046F1E021C01D8D0001FB751 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				046F1E031C01D8D0001FB751 /* HomeViewController.h */,
+				046F1E041C01D8D0001FB751 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		046F1E051C01D8D0001FB751 /* MyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				046F1E061C01D8D0001FB751 /* MyMusicViewController.h */,
+				046F1E071C01D8D0001FB751 /* MyMusicViewController.m */,
+			);
+			path = MyMusic;
+			sourceTree = "<group>";
+		};
+		8E28E749FD40D283E4661A35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8967E1B2147A4EFD1EE69BEC /* Pods.debug.xcconfig */,
+				BC6DF9E37D4B221B89373F13 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B796326F797E8F445BB6DAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD0619DE3EB46EF135E87205 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046B54D81C017E9100C1B42C /* MusicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B54F31C017E9100C1B42C /* Build configuration list for PBXNativeTarget "MusicDemo" */;
+			buildPhases = (
+				AA89BD17352D0E6012CCFC4F /* Check Pods Manifest.lock */,
+				046B54D51C017E9100C1B42C /* Sources */,
+				046B54D61C017E9100C1B42C /* Frameworks */,
+				046B54D71C017E9100C1B42C /* Resources */,
+				AB17205DD2383146575A230F /* Embed Pods Frameworks */,
+				54493064720242B002AF6F30 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicDemo;
+			productName = MusicDemo;
+			productReference = 046B54D91C017E9100C1B42C /* MusicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046B54D11C017E9100C1B42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = bing.liu;
+				TargetAttributes = {
+					046B54D81C017E9100C1B42C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 046B54D41C017E9100C1B42C /* Build configuration list for PBXProject "MusicDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046B54D01C017E9100C1B42C;
+			productRefGroup = 046B54DA1C017E9100C1B42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046B54D81C017E9100C1B42C /* MusicDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046B54D71C017E9100C1B42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B54EF1C017E9100C1B42C /* LaunchScreen.storyboard in Resources */,
+				046B54EC1C017E9100C1B42C /* Assets.xcassets in Resources */,
+				046B54E71C017E9100C1B42C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54493064720242B002AF6F30 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA89BD17352D0E6012CCFC4F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB17205DD2383146575A230F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046B54D51C017E9100C1B42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B54EA1C017E9100C1B42C /* MusicDemo.xcdatamodeld in Sources */,
+				046F1DE41C01D1F6001FB751 /* BaseViewController.m in Sources */,
+				046F1E091C01D8D0001FB751 /* FriendsViewController.m in Sources */,
+				046B54E11C017E9100C1B42C /* AppDelegate.m in Sources */,
+				046F1DEB1C01D385001FB751 /* LBTabBarController.m in Sources */,
+				046F1E081C01D8D0001FB751 /* AccountViewController.m in Sources */,
+				046F1E0B1C01D8D0001FB751 /* MyMusicViewController.m in Sources */,
+				046B54DE1C017E9100C1B42C /* main.m in Sources */,
+				04953F8A1C06D6D000CD333D /* LBCustomNavigationController.m in Sources */,
+				046F1E0A1C01D8D0001FB751 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046B54E51C017E9100C1B42C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046B54E61C017E9100C1B42C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046B54ED1C017E9100C1B42C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046B54EE1C017E9100C1B42C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046B54F11C017E9100C1B42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046B54F21C017E9100C1B42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046B54F41C017E9100C1B42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8967E1B2147A4EFD1EE69BEC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = MusicDemo/MusicDemoPrefix.pch;
+				INFOPLIST_FILE = MusicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.liu.MusicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		046B54F51C017E9100C1B42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6DF9E37D4B221B89373F13 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = MusicDemo/MusicDemoPrefix.pch;
+				INFOPLIST_FILE = MusicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.liu.MusicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046B54D41C017E9100C1B42C /* Build configuration list for PBXProject "MusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B54F11C017E9100C1B42C /* Debug */,
+				046B54F21C017E9100C1B42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B54F31C017E9100C1B42C /* Build configuration list for PBXNativeTarget "MusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B54F41C017E9100C1B42C /* Debug */,
+				046B54F51C017E9100C1B42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046B54E81C017E9100C1B42C /* MusicDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046B54E91C017E9100C1B42C /* MusicDemo.xcdatamodel */,
+			);
+			currentVersion = 046B54E91C017E9100C1B42C /* MusicDemo.xcdatamodel */;
+			path = MusicDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046B54D11C017E9100C1B42C /* Project object */;
+}
